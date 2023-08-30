@@ -1,0 +1,172 @@
+
+body{
+    margin-left: 100px;
+    padding: 50px 100px;
+    margin-top: 10px;.skills{
+      display: flex;
+       justify-content: start;
+       align-items: baseline;
+       margin-left: 10px;
+       color: white;
+      width: 50%;
+    
+    }
+  }
+
+  h1{
+    background: white;
+  }
+  
+  h2{
+    display: none;
+  }
+  #about h3{
+    display: none;
+  }
+  .skill{
+    padding: 15px;
+    background-color: #1288b6;
+    margin: 5px;
+    width:100%;
+  
+  }
+  .skills-primary{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .skills-secondary{
+    font-size: 14px;
+    font-weight: 400;
+  
+  }
+  
+  .skills{
+    display: flex;
+     justify-content: start;
+     align-items: baseline;
+     gap: 7px;
+     margin-left: 12px;
+     color: white;
+    width: 50%;
+  
+  }
+  
+  .skill[data-skill="5"] span::after{
+    content: "\2605 \2605 \2605";
+    display: inline-block;
+    color: white;
+    width:20px;
+    height: 20px;
+  
+  }
+  .skill[data-skill="3"] span::after{
+    content: "\2605 \2605";
+    display: inline-block;
+    color: white;
+    width:auto;
+    height: auto;
+  
+  }
+  .skill[data-skill="1"] span::after{
+    content: "\2605";
+    display: inline-block;
+    color: white;
+    width: auto;
+    height: auto;
+  
+  }
+  .skill[data-skill="7"] span::after,.skill[data-skill="9"] span::after{
+    content: "\2605 \2605 \2605 \2605 \2605";
+    display: inline-block;
+    color: white;
+  }
+  hgroup h1{
+    padding: 20px 0px;
+    border-bottom:1px solid gray ;
+  }
+  figure img{
+    position: absolute;
+    top: 70px;
+    right: 150px;
+    transform: rotate(-20deg);
+    width: 200px;
+    height: 200px;
+    padding-right: 250px;
+  
+  }
+  #about{
+    font-size: 16px;
+    font-weight: 300;
+    color: gray;
+    margin-bottom: 150px;
+  }
+  .skill span{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  h4{
+    margin: 0;
+    color: #04c9c9;
+  }
+  h3{
+    padding: 10px 2px;
+    border-left:1px solid gray ;
+  }
+  .experience{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding: 0px 10px 10px;
+    margin: 0;
+    border-right: 10px;
+    }
+  
+  .experience-details{
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+  
+  }
+  section ul{
+    margin: 0;
+  }
+  
+  #contact h3, #contact dt,.contact-skype{
+    display: none;
+  }
+  #contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .contacts{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact-email a{
+    content: url(../images/email.png);
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+  }
+  .contact-phone a{
+    content: url(../images/phone.png);
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+  }
+  .contact-github a{
+    content: url(../images/github.png);
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+  }
+  .contact-facebook a{
+    content: url(../images/facebook.png);
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+  }
+  
